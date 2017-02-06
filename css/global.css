@@ -1,3 +1,197 @@
-.box {
-  background: red;
+* {
+  box-sizing: border-box;
 }
+
+img {
+  width: 100%;
+}
+
+body {
+  padding: 50px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.row {
+  /*border: 1px solid red;*/
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.column {
+  flex: 1;
+  padding: 1px;
+  margin-right: 34px;
+  margin-left: 34px;
+  background-color: whitesmoke;
+}
+
+button {
+  border-radius: 6px;
+  background-color: white;
+  color: black;
+  border: 2px white;
+}
+
+button:hover {
+  background-color: white;
+  color: lightcoral;
+}
+
+.picture {
+  background-image: url("https://unsplash.it/g/1000");
+  padding: 100px;
+}
+
+.picture h1 {
+  font-size: 43px;
+  text-align: center;
+}
+
+.again {
+  flex: 8;
+}
+
+.green {
+  background-color: green;
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.border {
+  border-bottom: 1px solid black;
+  background-color: whitesmoke;
+}
+
+.blue {
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+}
+
+.black {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+.greenpersonal {
+  background-color: green;
+  text-align: center;
+  font-size: 21px;
+  color: white;
+}
+
+.greenfive {
+  background: green;
+  text-align: center;
+  font-size: 104px;
+  color: white;
+}
+
+.greenmonth {
+  background: green;
+  text-align: center;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.bluesmallbusiness {
+  background-color: darkblue;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.blue25 {
+  background: darkblue;
+  text-align: center;
+  font-size: 104px;
+  color: white;
+}
+
+.bluemonth {
+  background: darkblue;
+  text-align: center;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.blackenterprise {
+  background-color: black;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.black45 {
+  background: black;
+  text-align: center;
+  font-size: 104px;
+  color: white;
+}
+
+.blackmonth {
+  background: black;
+  text-align: center;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.column2 {
+  background-color: white;
+  text-align: left;
+  border: 1px solid white;
+  padding: 19px;
+  margin: 19px;
+}
+
+.border {
+  border-bottom: 1px solid black;
+  background-color: #ececec;
+}
+
+.btnBorder {
+  background-color: white;
+  border-radius: 12px;
+  color: black;
+  border: 2px solid black;
+}
+
+button:hover {
+  background-color: grey;
+  color: white;
+}
+
+.bottom {
+  background-color: black;
+  height: 64px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.try {
+  text-align: center;
+  color: whitesmoke;
+}
+
+/*column-offset-1 {*/
+/*margin-left: 8.33333%;*/
+/*}*/
+/*.column-8 {
+    flex: 8;
+}
+.column-3 {
+    flex: 3;
+    background: lightskyblue;
+}*/
